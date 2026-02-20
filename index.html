@@ -2,35 +2,66 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Tierra Compartida - Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il mio Blog Eco</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1 class="titolo">El blog de Tierra Compartida</h1>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Il mio Blog Eco</h1>
+      <p>Racconti, natura e ispirazione sostenibile</p>
+      <a href="#articoli" class="btn">Scopri gli articoli</a>
+    </div>
+  </header>
 
-<div class="grid">
+  <!-- SEZIONE ARTICOLI -->
+  <section id="articoli" class="contenitore">
+    <h2 class="sezione-titolo">Ultimi Articoli</h2>
 
-  <a href="articolo1.html" class="card">
-    <img src="img/articolo1.jpg">
-    <h2>Titolo Articolo 1</h2>
-  </a>
+    <div class="grid">
 
-  <a href="articolo2.html" class="card">
-    <img src="img/articolo2.jpg">
-    <h2>Titolo Articolo 2</h2>
-  </a>
+      <a href="articolo1.html" class="card">
+        <img src="img/articolo1.jpg" alt="Titolo Articolo 1">
+        <div class="card-content">
+          <span class="categoria">Natura</span>
+          <h3>Titolo Articolo 1</h3>
+          <p>Breve descrizione dell’articolo in stile magazine naturale.</p>
+        </div>
+      </a>
 
-  <a href="articolo3.html" class="card">
-    <img src="img/articolo3.jpg">
-    <h2>Titolo Articolo 3</h2>
-  </a>
+      <a href="articolo2.html" class="card">
+        <img src="img/articolo2.jpg" alt="Titolo Articolo 2">
+        <div class="card-content">
+          <span class="categoria">Sostenibilità</span>
+          <h3>Titolo Articolo 2</h3>
+          <p>Breve descrizione dell’articolo in stile magazine naturale.</p>
+        </div>
+      </a>
 
-</div>
+      <a href="articolo3.html" class="card">
+        <img src="img/articolo3.jpg" alt="Titolo Articolo 3">
+        <div class="card-content">
+          <span class="categoria">Viaggi Green</span>
+          <h3>Titolo Articolo 3</h3>
+          <p>Breve descrizione dell’articolo in stile magazine naturale.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Il mio Blog Eco | Creato con passione 🌿</p>
+  </footer>
 
 </body>
 </html>
-
